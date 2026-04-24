@@ -1,0 +1,218 @@
+(footprint "Battery_18650_2S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8.05 -10.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe24bea5-4a1b-4981-81b3-666e01883b29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery_18650_2S"
+		(at 1.08 -6.38 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ae0112b-9fe6-4eb6-aa71-35619f40e34c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "688d0712-a88e-4a0f-b765-2dc76e72eb4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "156168f7-29b2-42e1-acb7-5a89bd6af1f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -20.23 -39.25)
+		(end 20.23 39.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b1f5a526-a961-4d72-8146-a723f9c46d53")
+	)
+	(fp_rect
+		(start -12.82 -43.865)
+		(end -5.78 -39.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e5149dac-173e-425e-9009-d1a8b259df01")
+	)
+	(fp_rect
+		(start -12.82 39.255)
+		(end -5.78 43.865)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d24e101-29e5-4aa2-8833-7d93111981a4")
+	)
+	(fp_rect
+		(start 5.78 -43.865)
+		(end 12.82 -39.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dd83b3ec-030c-4892-8cb3-984a0be95a07")
+	)
+	(fp_rect
+		(start 5.78 39.255)
+		(end 12.82 43.865)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2bc397de-ea2f-40fc-b324-b98593b7d1e2")
+	)
+	(fp_rect
+		(start -20.48 -39.5)
+		(end 20.48 39.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cdc37876-cda8-44a1-b510-5b877683186e")
+	)
+	(fp_rect
+		(start -20.23 -39.25)
+		(end 20.23 39.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "817608ea-3a30-49d7-bfa1-3ca98feda37e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.46 -4.75 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b1052f94-6264-47fa-86c8-a74306cf182f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -9.3 -41.56)
+		(size 1.1 1.56)
+		(drill oval 1.04 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "27d859f5-e364-425d-b7f1-7e1374d0154f")
+	)
+	(pad "2" thru_hole oval
+		(at 9.3 -41.56)
+		(size 1.1 1.56)
+		(drill oval 1.04 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b3df0ab3-a977-43ef-99eb-91f71b23600f")
+	)
+	(pad "3" thru_hole oval
+		(at -9.3 41.56)
+		(size 1.1 1.56)
+		(drill oval 1.04 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f482eb77-fecf-4b95-9610-b85bc158d4e5")
+	)
+	(pad "4" thru_hole oval
+		(at 9.3 41.56)
+		(size 1.1 1.56)
+		(drill oval 1.04 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "02d8e33e-871e-4f70-9cdc-af1685419c68")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/18650_2S_Holder.STEP"
+		(hide yes)
+		(offset
+			(xyz -67.5 -25 -32)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/Battery18650_2S.step"
+		(hide yes)
+		(offset
+			(xyz -67.5 -25 -32)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/BLM Blossom Electronics STM THM FOR 18650 Battery Holder With Battery V1.2.STEP"
+		(offset
+			(xyz -20 -38.5 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

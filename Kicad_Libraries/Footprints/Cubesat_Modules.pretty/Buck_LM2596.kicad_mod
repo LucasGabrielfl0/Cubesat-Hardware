@@ -1,0 +1,214 @@
+(footprint "Buck_LM2596"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.06 -16.11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d1b062e3-bd24-45fd-9809-53c626a0c3bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Buck_LM2596"
+		(at 2.3 -12.91 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e0b0459-95b5-460a-9a20-57b52e6f1f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a35c0128-ee93-4908-bc1b-7811924c222a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "004a257b-0128-4c70-b5a9-51a1c43e9ae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.255 -20.765)
+		(end 10.255 20.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3136e032-84fe-4f10-88e7-cfb30a3e9aab")
+	)
+	(fp_rect
+		(start -10.505 -21.015)
+		(end 10.505 21.015)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "75302bbb-f6bb-4bc8-8520-2a6485e7f7e3")
+	)
+	(fp_rect
+		(start -10.255 -20.765)
+		(end 10.255 20.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c421c02b-ef33-4373-b57c-f9c50eeffd1a")
+	)
+	(fp_text user "OUT +"
+		(at -6.72 -17.61 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "0ebe7768-692c-4b27-9070-d21cc75f6fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN +"
+		(at -6.81 19.11 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "12ef2f32-1907-4ec6-9405-a82e80781ca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT -"
+		(at 1.94 -17.65 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "acf7b3b3-7065-4379-b580-ef90232ba857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN -"
+		(at 3.18 19.11 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "c0b18130-ee18-4700-a93d-a6aabb7dde95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.33 -4.2 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4783a22c-bf21-4a52-a3c1-4c4afedd1c44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.94 -6.52 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd455829-6778-48a8-a13a-db8eb629c96d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -8.13 18.57 90)
+		(size 1.56 1.56)
+		(drill 1.44)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "882e94cb-ce99-484d-8b88-c6db2f70ec8e")
+	)
+	(pad "2" thru_hole circle
+		(at 8.03 18.34 90)
+		(size 1.56 1.56)
+		(drill 1.44)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ae1c2cab-3cce-4b56-aa9a-223e9d0cd815")
+	)
+	(pad "3" thru_hole circle
+		(at -8.03 -18.34 90)
+		(size 1.56 1.56)
+		(drill 1.44)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "307f323c-3983-4a11-94a2-2b871e91501c")
+	)
+	(pad "4" thru_hole circle
+		(at 8.03 -18.34 90)
+		(size 1.56 1.56)
+		(drill 1.44)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "54ff9a87-f037-4374-9746-3147a40ccd03")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/Buck_Converter/LM2596 DC-DC Buck Converter Module.stp"
+		(offset
+			(xyz 59 61 -94)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
