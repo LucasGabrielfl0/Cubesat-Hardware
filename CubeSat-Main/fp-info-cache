@@ -1,4 +1,4 @@
-26752677513636013
+26756240715387147
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59388,6 +59388,13 @@ DRV8833
 12
 12
 Cubesat_Modules
+FUSE_4527
+
+
+0
+2
+2
+Cubesat_Modules
 GPS_NEO6M
 
 
@@ -59408,6 +59415,13 @@ STM32F411CEU_BlackPill
 0
 40
 40
+Cubesat_Modules
+Sem título
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator

@@ -67,7 +67,7 @@
 	)
 	(fp_rect
 		(start -33.52 -43.455)
-		(end -26.48 -38.545)
+		(end -26.48 -38.495)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -77,7 +77,7 @@
 		(uuid "05708b2d-f89b-480c-b030-7b8fd332c876")
 	)
 	(fp_rect
-		(start -33.52 38.545)
+		(start -33.52 38.485)
 		(end -26.48 43.455)
 		(stroke
 			(width 0.127)
@@ -89,7 +89,7 @@
 	)
 	(fp_rect
 		(start -13.52 -43.455)
-		(end -6.48 -38.545)
+		(end -6.48 -38.495)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -99,7 +99,7 @@
 		(uuid "063dc77d-043c-4b75-abc9-4b305f7c023c")
 	)
 	(fp_rect
-		(start -13.52 38.545)
+		(start -13.52 38.495)
 		(end -6.48 43.455)
 		(stroke
 			(width 0.127)
@@ -111,7 +111,7 @@
 	)
 	(fp_rect
 		(start 6.48 -43.455)
-		(end 13.52 -38.545)
+		(end 13.52 -38.495)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -121,7 +121,7 @@
 		(uuid "27c69159-e5f7-4936-ac4f-addd8ca5081e")
 	)
 	(fp_rect
-		(start 6.48 38.545)
+		(start 6.48 38.495)
 		(end 13.52 43.455)
 		(stroke
 			(width 0.127)
@@ -133,7 +133,7 @@
 	)
 	(fp_rect
 		(start 26.48 -43.455)
-		(end 33.52 -38.545)
+		(end 33.52 -38.505)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -143,7 +143,7 @@
 		(uuid "7e9f740f-469f-40f3-b29c-8d989a1904c7")
 	)
 	(fp_rect
-		(start 26.48 38.545)
+		(start 26.48 38.495)
 		(end 33.52 43.455)
 		(stroke
 			(width 0.127)
@@ -152,6 +152,50 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "b432cccf-ee3c-4502-94df-e9fc2924fdc2")
+	)
+	(fp_circle
+		(center -19.91 -27.63)
+		(end -18.31 -27.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b5c36e87-17bb-4694-aa00-31f5adc4663c")
+	)
+	(fp_circle
+		(center -19.91 27.63)
+		(end -18.31 27.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a0cc2b22-c5fe-4065-91c4-6a8afa401585")
+	)
+	(fp_circle
+		(center 19.91 -27.63)
+		(end 21.51 -27.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9a2c6b14-c552-4b9c-84d5-6f42aeda1033")
+	)
+	(fp_circle
+		(center 19.91 27.63)
+		(end 21.51 27.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2146515b-9394-4f90-a3c1-f32d2c08c59d")
 	)
 	(fp_rect
 		(start -40.75 -38.75)
@@ -176,76 +220,76 @@
 		(uuid "931587ad-d9d6-4126-aba0-833a00b547f6")
 	)
 	(pad "1" thru_hole oval
-		(at -30 -41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at -30 -41.53 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "d360db69-73b9-4159-bdba-76e722bc45fc")
+		(uuid "ee5a28cd-f6a2-4eea-b377-535fd5422ba7")
 	)
 	(pad "2" thru_hole oval
-		(at -10 -41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
-		(layers "*.Cu" "*.Mask")
+		(at -10 -41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
+		(layers "*.Cu" "*.Mask" "B.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "beb090c0-2388-4bd8-a10c-bcaad2148a99")
+		(uuid "d14a022d-b7e3-4091-98c5-75d5e89cb489")
 	)
 	(pad "3" thru_hole oval
-		(at 10 -41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at 10 -41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "01c56b90-a680-4da1-98dd-0d6db37e7cb8")
+		(uuid "9d4aa065-aa47-4f4d-bfce-e3adf7430f89")
 	)
 	(pad "4" thru_hole oval
-		(at 30 -41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at 30 -41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "b8c8eac7-6f31-4274-9f4f-d6ce2e97988c")
+		(uuid "27eab85a-977b-4193-a3ae-b967039b4699")
 	)
 	(pad "5" thru_hole oval
-		(at -30 41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at -30 41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "f6332578-70ae-4d19-bb66-583a86796295")
+		(uuid "8f959271-8c93-4df9-bb5b-8d05439e3029")
 	)
 	(pad "6" thru_hole oval
-		(at -10 41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
-		(layers "*.Cu" "*.Mask")
+		(at -10 41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
+		(layers "*.Cu" "*.Mask" "B.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "c3f02efb-8ea0-4edf-8cad-b5497da66ab3")
+		(uuid "3c7e9527-9463-41b2-919f-315a5da3572d")
 	)
 	(pad "7" thru_hole oval
-		(at 10 41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at 10 41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "1be6413d-71c5-4a5d-aac5-24fc58388fce")
+		(uuid "203d8659-1e23-4c7d-8f7a-064d3f44e1a3")
 	)
 	(pad "8" thru_hole oval
-		(at 30 41.5)
-		(size 1.1 1.56)
-		(drill oval 1.04 1.5)
+		(at 30 41.5 90)
+		(size 2.02 1.56)
+		(drill oval 1.5 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "6005cfa6-8ad4-4985-834f-eec756cbb61f")
+		(uuid "6aff0a7f-2c48-459b-a6f0-c1d2fd8692a3")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/Hold_18650-4p_smd.stp"
@@ -272,7 +316,7 @@
 			(xyz 90 -0 -0)
 		)
 	)
-	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/BatteryPack_4S.step"
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/BATTERY_PACK_18650/BatteryPack_4S.step"
 		(offset
 			(xyz 0 0 0)
 		)

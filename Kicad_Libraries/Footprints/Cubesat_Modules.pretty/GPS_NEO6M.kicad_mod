@@ -131,7 +131,7 @@
 		(uuid "2fa3225c-47e2-48fe-a2f8-9093328ec985")
 	)
 	(pad "2" thru_hole circle
-		(at -1.26 -15.49 90)
+		(at -1.4 -15.49 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -158,20 +158,9 @@
 		(uuid "66673748-e625-4609-8c0f-2170eb0e5007")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/PCB/PCB_CUSTOM/GPS_NEO6M/GY-NEO6MV2-withAnt v7.step"
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/Cubesat-PCBs/Kicad_Libraries/Models_3D/GPS_NEO6M/GY-NEO6MV2-noAnt.step"
 		(offset
-			(xyz 13.45 30.45 2.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -90)
-		)
-	)
-	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/GPS_NEO6M/GY-NEO6MV2-withAnt v7.step"
-		(offset
-			(xyz 13 30.5 -1.5)
+			(xyz 13.35 28.45 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
