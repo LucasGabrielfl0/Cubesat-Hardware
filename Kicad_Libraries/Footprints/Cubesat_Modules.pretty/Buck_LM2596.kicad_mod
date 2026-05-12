@@ -164,8 +164,8 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -8.12 18.58 90)
-		(size 1.56 1.56)
+		(at -8.1 18.7 90)
+		(size 2.6 2.6)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -173,8 +173,8 @@
 		(uuid "75880575-5b94-474f-9390-6f33432c0b97")
 	)
 	(pad "2" thru_hole circle
-		(at 8.03 18.34 90)
-		(size 1.56 1.56)
+		(at 8 18.7 90)
+		(size 2.6 2.6)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -182,8 +182,8 @@
 		(uuid "35777183-b701-4470-86bb-1f76d4bf47af")
 	)
 	(pad "3" thru_hole circle
-		(at -8.03 -18.33 90)
-		(size 1.56 1.56)
+		(at -8.1 -18.33 90)
+		(size 2.6 2.6)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -191,8 +191,8 @@
 		(uuid "b2e657de-c9bc-4f2b-9c05-f95afb3ca571")
 	)
 	(pad "4" thru_hole circle
-		(at 8.03 -18.33 90)
-		(size 1.56 1.56)
+		(at 8 -18.33 90)
+		(size 2.6 2.6)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -200,9 +200,9 @@
 		(uuid "4482c906-6841-4062-94ac-3e8b6deabc66")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/Buck_Converter/LM2596 DC-DC Buck Converter Module.stp"
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Buck_Converter/LM2596 DC-DC Buck Converter Module.stp"
 		(offset
-			(xyz 59 61 -94)
+			(xyz 59 61 -94.5)
 		)
 		(scale
 			(xyz 1 1 1)

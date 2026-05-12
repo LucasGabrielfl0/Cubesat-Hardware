@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Cubesat_ADCS.kicad_pro",
+    "filename": "CubeSat_EPS_ADCS.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CubeSat_EPS_ADCS.step",
       "svg": "",
       "vrml": ""
     },

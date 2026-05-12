@@ -553,7 +553,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.112 5.334 0)
+			(at -5.842 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Value" "Buck_LM2596"
-			(at 2.54 5.334 0)
+			(at 3.81 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,7 +569,7 @@
 			)
 		)
 		(property "Footprint" "Cubesat_Modules:Buck_LM2596"
-			(at 6.604 -5.334 0)
+			(at 7.874 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,8 +597,8 @@
 		)
 		(symbol "Buck_LM2596_1_1"
 			(rectangle
-				(start -7.62 4.318)
-				(end 6.604 -4.064)
+				(start -6.604 4.318)
+				(end 7.874 -4.064)
 				(stroke
 					(width 0)
 					(type solid)
@@ -644,7 +644,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 2.54 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "Vout"
 					(effects
@@ -662,7 +662,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -675,6 +675,165 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Cap_Electrolytic"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3.048 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 4.572 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cubesat_Modules:Electrolytic_Capacitor"
+			(at -4.064 -2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Cap_Electrolytic_0_0"
+			(rectangle
+				(start -1.913 2.062)
+				(end -1.024 1.935)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -1.532 2.443)
+				(end -1.405 1.554)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.254) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -1.016)
+				(mid 0 -0.2151)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.762) (xy -2.54 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Cap_Electrolytic_1_0"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)

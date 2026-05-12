@@ -1,4 +1,4 @@
-26756238676850754
+26759802397075426
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59388,6 +59388,13 @@ DRV8833
 12
 12
 Cubesat_Modules
+Electrolytic_Capacitor
+
+
+0
+2
+2
+Cubesat_Modules
 FUSE_4527
 
 
@@ -70650,6 +70657,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Logos
+Axys
+
+
+0
+0
+0
 Logos
 Cube_01
 

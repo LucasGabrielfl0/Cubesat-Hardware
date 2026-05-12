@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.9,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CubesatMain.kicad_pro",
+    "filename": "CubeSat_Main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CubeSat_Main.step",
       "svg": "",
       "vrml": ""
     },
@@ -560,14 +560,32 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descrição",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referência"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

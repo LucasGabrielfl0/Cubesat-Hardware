@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -10.3 -17.8)
-		(end 10.3 -17.8)
+		(start -10.7 -18.2)
+		(end 10.7 -18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "5ed8b551-6bb3-4c75-938e-f8260c97f6ed")
 	)
 	(fp_line
-		(start -10.3 17.8)
-		(end -10.3 -17.8)
+		(start -10.7 18.2)
+		(end -10.7 -18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "9ea2aece-1310-44a8-aeaf-fce60beb07a3")
 	)
 	(fp_line
-		(start -8.7 17.8)
-		(end -10.3 17.8)
+		(start -9.6 18.2)
+		(end -10.7 18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "7271491a-5429-4ee0-a06f-6b9794e3486e")
 	)
 	(fp_line
-		(start -8.7 17.8)
-		(end -8.7 29.39)
+		(start -9.6 18.2)
+		(end -9.6 29.39)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "eff25181-0e59-423a-ba18-4522d4937727")
 	)
 	(fp_line
-		(start -2.02 17.8)
-		(end -2.02 29.39)
+		(start -0.6 18.2)
+		(end -0.6 29.39)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "ea0b4350-f913-4659-a76d-419c662aa5f5")
 	)
 	(fp_line
-		(start -2.02 29.39)
-		(end -8.7 29.39)
+		(start -0.6 29.39)
+		(end -9.6 29.39)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "d91db2b7-ad71-4862-9b3a-3b73258daf28")
 	)
 	(fp_line
-		(start 10.3 -17.8)
-		(end 10.3 17.8)
+		(start 10.7 -18.2)
+		(end 10.7 18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -126,8 +126,8 @@
 		(uuid "26f3c297-f3ba-413f-83e2-01fdcd8339de")
 	)
 	(fp_line
-		(start 10.3 17.8)
-		(end -2.02 17.8)
+		(start 10.7 18.2)
+		(end -0.6 18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -147,8 +147,8 @@
 		(uuid "0ef24528-6bf1-4980-b5ab-8270c17f4e58")
 	)
 	(fp_line
-		(start -10.5 -18)
-		(end 10.5 -18)
+		(start -10.9 -18.4)
+		(end 10.9 -18.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -157,8 +157,8 @@
 		(uuid "99f45761-6a1c-42f0-bb8b-dae83fdc8f3d")
 	)
 	(fp_line
-		(start -10.5 18)
-		(end -10.5 -18)
+		(start -10.9 18.4)
+		(end -10.9 -18.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -167,8 +167,8 @@
 		(uuid "b46e4658-f916-4262-b968-719e39d4e62f")
 	)
 	(fp_line
-		(start -8.9 18)
-		(end -10.5 18)
+		(start -9.8 18.4)
+		(end -10.9 18.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -177,8 +177,8 @@
 		(uuid "5d8bfe63-b0df-4dc3-90cc-abdad9f78ce0")
 	)
 	(fp_line
-		(start -8.9 18)
-		(end -8.9 29.58)
+		(start -9.8 18.4)
+		(end -9.8 29.59)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -187,8 +187,8 @@
 		(uuid "35e86c39-2767-4d03-becf-51c99de0e446")
 	)
 	(fp_line
-		(start -8.9 29.59)
-		(end -1.83 29.59)
+		(start -9.8 29.59)
+		(end -0.4 29.59)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -197,8 +197,8 @@
 		(uuid "fb7e8dda-5175-4240-b737-32f3cefa1f22")
 	)
 	(fp_line
-		(start -1.83 18)
-		(end -1.83 29.59)
+		(start -0.4 18.4)
+		(end -0.4 29.59)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -207,8 +207,8 @@
 		(uuid "aeed11ee-aa98-4fd4-9687-7f3dfeb58196")
 	)
 	(fp_line
-		(start 10.5 -18)
-		(end 10.5 18)
+		(start 10.9 -18.4)
+		(end 10.9 18.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -217,8 +217,8 @@
 		(uuid "2dbb0543-57ab-4ce2-acbe-7dd243d36de2")
 	)
 	(fp_line
-		(start 10.5 18)
-		(end -1.83 18)
+		(start 10.9 18.4)
+		(end -0.4 18.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -227,8 +227,8 @@
 		(uuid "18593c3a-e47f-4d85-9c13-2c4186ac5a3a")
 	)
 	(fp_line
-		(start -10.3 -17.8)
-		(end 10.3 -17.8)
+		(start -10.7 -18.2)
+		(end 10.7 -18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -237,8 +237,8 @@
 		(uuid "ed730750-deea-4415-b93b-681dea82bfc0")
 	)
 	(fp_line
-		(start -10.3 17.8)
-		(end -10.3 -17.8)
+		(start -10.7 17.4)
+		(end -10.7 -18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -247,8 +247,8 @@
 		(uuid "8177d118-6917-4a8b-bcfd-1910c9d215a8")
 	)
 	(fp_line
-		(start -8.7 17.8)
-		(end -10.3 17.8)
+		(start -9.6 18.2)
+		(end -10.7 18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -257,18 +257,8 @@
 		(uuid "051c37b0-fc99-40c5-b54d-c2a767e41126")
 	)
 	(fp_line
-		(start 9.33 17.8)
-		(end -2.02 17.8)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "81ddceb5-e0c4-463f-9532-230d2264dd60")
-	)
-	(fp_line
-		(start 10.3 -17.8)
-		(end 10.3 17.8)
+		(start 10.7 -18.2)
+		(end 10.7 18.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -276,8 +266,18 @@
 		(layer "F.Fab")
 		(uuid "aa9c34c4-60e0-4b04-8704-04cf1f1b5b40")
 	)
+	(fp_line
+		(start 10.7 18.2)
+		(end -0.6 18.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81ddceb5-e0c4-463f-9532-230d2264dd60")
+	)
 	(pad "1" thru_hole circle
-		(at -7.61 -16.3 90)
+		(at -7.61 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -286,7 +286,7 @@
 		(uuid "c76b42fb-2d30-47e9-8f21-735b10b0009d")
 	)
 	(pad "2" thru_hole circle
-		(at -5.07 -16.3 90)
+		(at -5.07 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -295,7 +295,7 @@
 		(uuid "01c4c29c-0bb0-4ef8-af3b-6e8a9b73e205")
 	)
 	(pad "3" thru_hole circle
-		(at -2.53 -16.3 90)
+		(at -2.53 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -304,7 +304,7 @@
 		(uuid "1fbf9061-5748-481f-9477-95698095f0f8")
 	)
 	(pad "4" thru_hole circle
-		(at 0.01 -16.3 90)
+		(at 0.01 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -313,7 +313,7 @@
 		(uuid "dec1506b-ed87-4c80-b77b-38b4e358c31b")
 	)
 	(pad "5" thru_hole circle
-		(at 2.55 -16.3 90)
+		(at 2.55 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
@@ -322,7 +322,7 @@
 		(uuid "9a963574-a2e7-4993-a602-40a8a5fba871")
 	)
 	(pad "6" thru_hole circle
-		(at 5.09 -16.3 90)
+		(at 5.09 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask" "Eco2.User")
@@ -331,7 +331,7 @@
 		(uuid "73741380-b6bf-465e-afa0-5e5210e36a3e")
 	)
 	(pad "7" thru_hole circle
-		(at 7.63 -16.3 90)
+		(at 7.63 -16.5 90)
 		(size 1.56 1.56)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask" "Dwgs.User")
@@ -342,7 +342,7 @@
 	(embedded_fonts no)
 	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A2-Hardware/ODYSSEY_PCB/ODYSSEY_L1_PCB/Cubesat_Library/Models_3D/E220_Antenna v5.step"
 		(offset
-			(xyz 0 52.5 -12.5)
+			(xyz 0 52.5 -12)
 		)
 		(scale
 			(xyz 1 1 1)

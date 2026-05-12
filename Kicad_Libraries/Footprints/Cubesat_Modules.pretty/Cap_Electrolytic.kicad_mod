@@ -1,0 +1,188 @@
+(footprint "Cap_Electrolytic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.079 -7.9882 0)
+		(layer "F.SilkS")
+		(uuid "d6adcc67-a309-4e90-85b4-04b0deb835d1")
+		(effects
+			(font
+				(size 1.32 1.32)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Eletrolytic_Capacitor"
+		(at 0.98 4.39 0)
+		(layer "F.Fab")
+		(uuid "077d1e58-d102-4af4-92cd-6d9df46f6b04")
+		(effects
+			(font
+				(size 1.32 1.32)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6531655-701b-4b3c-80d4-40fdea585172")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aff5a601-9e7b-4d41-b1be-1503fe8b8ad1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.9 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d6ac972b-eba6-418b-bf0b-f253b920a3d2")
+	)
+	(fp_circle
+		(center 3.29 0)
+		(end 3.39 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3ad38709-431c-44e8-aaf7-5f2f5a4d0f79")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.02 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e531e137-a4a9-4876-9d48-1c4ea480a64a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.78 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d162449e-8a79-4c35-8598-1a8503e23c07")
+	)
+	(fp_circle
+		(center 3.29 0)
+		(end 3.39 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a6fdfea2-2c0d-4299-a27f-b2e6f04d74b2")
+	)
+	(fp_text user "+"
+		(at -1.99 -0.84 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "cbf03df9-cfb1-401d-a444-9141575dd301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0.56 -0.82 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d2f83021-acd8-4865-b272-da909b0406a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "825a55cd-2a5e-40ef-a7bf-2315de27fe11")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4ed1f5f2-12d5-4335-afcc-8da822aa2611")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Electrolytic_Capacitor/Electrolytic_Capacitor.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Electrolytic_Capacitor/ElCapVT-1.5-4x7-black.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Electrolytic_Capacitor/0.22uF 50V electr 5 x11mm -P.diameter 2.5 mm-Black-White.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

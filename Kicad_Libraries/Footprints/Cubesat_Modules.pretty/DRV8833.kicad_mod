@@ -111,8 +111,8 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -7.75 -6.35)
-		(size 1.56 1.56)
+		(at -7.6 -6.35)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -120,8 +120,8 @@
 		(uuid "a57f20bf-4465-448d-a9aa-e0b5c639e47b")
 	)
 	(pad "2" thru_hole circle
-		(at -7.75 -3.67)
-		(size 1.56 1.56)
+		(at -7.6 -3.81)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -129,8 +129,8 @@
 		(uuid "bc31221d-6c08-4b52-97fc-d732c0d82745")
 	)
 	(pad "3" thru_hole circle
-		(at -7.75 -1.27)
-		(size 1.56 1.56)
+		(at -7.6 -1.27)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -138,8 +138,8 @@
 		(uuid "3b9ab08a-f09d-4761-a091-2470d11da0e6")
 	)
 	(pad "4" thru_hole circle
-		(at -7.75 1.27)
-		(size 1.56 1.56)
+		(at -7.6 1.27)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -147,8 +147,8 @@
 		(uuid "f44dcd29-c6da-400e-b3af-4c19b57a4ee4")
 	)
 	(pad "5" thru_hole circle
-		(at -7.75 3.67)
-		(size 1.56 1.56)
+		(at -7.6 3.81)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -156,8 +156,8 @@
 		(uuid "e452b299-9c2c-4c28-aad6-ff9cdc35fa0b")
 	)
 	(pad "6" thru_hole circle
-		(at -7.75 6.07)
-		(size 1.56 1.56)
+		(at -7.6 6.35)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask" "Eco2.User")
 		(remove_unused_layers no)
@@ -165,8 +165,8 @@
 		(uuid "85732a3d-6de1-4ca0-850c-f0e85b222751")
 	)
 	(pad "7" thru_hole circle
-		(at 7.75 -6.35)
-		(size 1.56 1.56)
+		(at 7.6 -6.35)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -174,8 +174,8 @@
 		(uuid "88c3f507-b874-42df-9062-2ec5a7f51409")
 	)
 	(pad "8" thru_hole circle
-		(at 7.75 -3.81)
-		(size 1.56 1.56)
+		(at 7.6 -3.81)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -183,8 +183,8 @@
 		(uuid "39a596cd-54cd-4306-87b9-91d7e667a8f9")
 	)
 	(pad "9" thru_hole circle
-		(at 7.75 -1.27)
-		(size 1.56 1.56)
+		(at 7.6 -1.27)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -192,8 +192,8 @@
 		(uuid "5871ad17-741e-4c48-8ec8-41b4fb73950b")
 	)
 	(pad "10" thru_hole circle
-		(at 7.75 1.27)
-		(size 1.56 1.56)
+		(at 7.6 1.27)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -201,8 +201,8 @@
 		(uuid "40a893bb-cfdc-4320-be33-b1629986e4bf")
 	)
 	(pad "11" thru_hole circle
-		(at 7.75 3.81)
-		(size 1.56 1.56)
+		(at 7.6 3.81)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -210,8 +210,8 @@
 		(uuid "a6e71b03-5ec6-4bfa-b038-69fbb41f7b2e")
 	)
 	(pad "12" thru_hole circle
-		(at 7.75 6.35)
-		(size 1.56 1.56)
+		(at 7.6 6.35)
+		(size 2 2)
 		(drill 1.04)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -219,7 +219,7 @@
 		(uuid "8b840c7a-853f-4a15-8566-d15f1efcf0d9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Cubesat-PCBs/Kicad_Libraries/Models_3D/DRV8833/Modulo_DRV8833_A.stp"
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/DRV8833/Modulo_DRV8833_A.stp"
 		(offset
 			(xyz 0 0 2)
 		)
