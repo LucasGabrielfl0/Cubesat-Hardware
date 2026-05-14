@@ -1,4 +1,4 @@
-26759802397075426
+26761583819779405
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59381,19 +59381,19 @@ Buck_LM2596
 4
 4
 Cubesat_Modules
+Cap_Electrolytic
+
+
+0
+2
+2
+Cubesat_Modules
 DRV8833
 
 
 0
 12
 12
-Cubesat_Modules
-Electrolytic_Capacitor
-
-
-0
-2
-2
 Cubesat_Modules
 FUSE_4527
 
@@ -59408,6 +59408,13 @@ GPS_NEO6M
 0
 4
 4
+Cubesat_Modules
+LM35DZ
+
+
+0
+3
+3
 Cubesat_Modules
 LORA-E220-900T22D
 
