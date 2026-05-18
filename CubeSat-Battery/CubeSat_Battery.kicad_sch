@@ -478,7 +478,7 @@
 	)
 	(rectangle
 		(start 93.472 12.192)
-		(end 164.846 44.958)
+		(end 130.048 44.958)
 		(stroke
 			(width 0)
 			(type default)
@@ -512,33 +512,9 @@
 		)
 		(uuid 11fc2a9f-f08c-429d-8016-e216c545103c)
 	)
-	(rectangle
-		(start 130.048 20.574)
-		(end 164.846 44.958)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c4cc4c05-b6e5-4822-948f-32cb5b1191bb)
-	)
-	(text "OUTPUT TO ADCS HBRIDGE"
-		(exclude_from_sim no)
-		(at 148.082 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "5eabbd24-128d-464e-bd3d-1a2348e31b5f")
-	)
 	(text "BOARD OUTPUTS"
 		(exclude_from_sim no)
-		(at 132.842 16.256 0)
+		(at 113.03 16.002 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -676,13 +652,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 30.48) (xy 113.03 30.48)
+			(xy 107.95 33.02) (xy 113.03 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5967ba8b-fc1c-4f43-9030-3d6b0b1c474c")
+		(uuid "68158a64-ac71-4bb3-90db-4dfb8b202390")
 	)
 	(wire
 		(pts
@@ -696,6 +672,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 30.48) (xy 118.11 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a6e13e-1479-4a10-9eb3-29a0676e44ea")
+	)
+	(wire
+		(pts
 			(xy 52.07 53.34) (xy 54.61 53.34)
 		)
 		(stroke
@@ -703,16 +689,6 @@
 			(type default)
 		)
 		(uuid "86f1de30-a7a0-4189-9253-2066dc771610")
-	)
-	(wire
-		(pts
-			(xy 144.78 33.02) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903c10ad-de52-4283-901f-8d130143b6b9")
 	)
 	(wire
 		(pts
@@ -776,16 +752,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 30.48) (xy 153.67 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d4bff4-4079-4bf5-9089-5c8e903aab60")
-	)
-	(wire
-		(pts
 			(xy 52.07 58.42) (xy 52.07 62.23)
 		)
 		(stroke
@@ -823,16 +789,6 @@
 			(type default)
 		)
 		(uuid "edfd7de6-9701-41d4-9593-5acec8b61321")
-	)
-	(wire
-		(pts
-			(xy 107.95 33.02) (xy 118.11 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8424ef2-324c-47c3-bd36-afaf727ac422")
 	)
 	(global_label "GND"
 		(shape input)
@@ -908,31 +864,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 153.67 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "c6252194-9ae0-4068-9673-e320026b3772")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0017 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 118.11 33.02 0)
+		(at 118.11 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -944,7 +876,7 @@
 		)
 		(uuid "d825cfc5-8f63-4e89-9430-52f21c6c1ecb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4417 33.02 0)
+			(at 125.4417 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,31 +888,7 @@
 	)
 	(global_label "Vbat_8.4V"
 		(shape input)
-		(at 148.59 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "eac4dd88-e805-4cf7-87ef-18bdd347faec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2435 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat_8.4V"
-		(shape input)
-		(at 113.03 30.48 0)
+		(at 113.03 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -992,7 +900,7 @@
 		)
 		(uuid "f895e660-d2c0-476a-bcea-5ba6ccca6ff4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.6835 30.48 0)
+			(at 125.6835 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,73 +1106,6 @@
 			(project ""
 				(path "/b0f59bc3-d31e-43eb-8cb8-cd4747043e73"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 139.7 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b84075f2-c310-481a-9239-3a168725a761")
-		(property "Reference" "J2"
-			(at 140.462 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 150.114 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf3c89d9-71ea-479c-a7cc-4b8b2d2d9dae")
-		)
-		(pin "2"
-			(uuid "5dc88e92-f9de-4a54-b8e3-8270a385c9cf")
-		)
-		(instances
-			(project ""
-				(path "/b0f59bc3-d31e-43eb-8cb8-cd4747043e73"
-					(reference "J2")
 					(unit 1)
 				)
 			)
