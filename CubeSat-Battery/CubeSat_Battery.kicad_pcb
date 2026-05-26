@@ -393,8 +393,8 @@
 		)
 		(pad "" thru_hole circle
 			(at -19.91 -28.5)
-			(size 5.5 5.5)
-			(drill 3.2)
+			(size 5 5)
+			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
@@ -402,8 +402,8 @@
 		)
 		(pad "" thru_hole circle
 			(at -19.91 28.5)
-			(size 5.5 5.5)
-			(drill 3.2)
+			(size 5 5)
+			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
@@ -411,8 +411,8 @@
 		)
 		(pad "" thru_hole circle
 			(at 19.91 -28.5)
-			(size 5.5 5.5)
-			(drill 3.2)
+			(size 5 5)
+			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
@@ -420,119 +420,111 @@
 		)
 		(pad "" thru_hole circle
 			(at 19.91 28.5)
-			(size 5.5 5.5)
-			(drill 3.2)
+			(size 5 5)
+			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
 			(uuid "fe228c89-6aa7-4f8c-b29a-e2d7d0fc0a68")
 		)
-		(pad "1" thru_hole rect
+		(pad "1" smd rect
 			(at -30 -41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset -3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "Vcell_4.2V")
 			(pinfunction "P1")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "7d1e8f85-e3d4-4851-ac26-ed11ff6e412d")
 		)
-		(pad "2" thru_hole rect
+		(pad "2" smd rect
 			(at -10 -41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset -3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "Vcell_4.2V")
 			(pinfunction "P2")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "f3efe410-6223-4317-85c7-f993d16bf17b")
 		)
-		(pad "3" thru_hole rect
+		(pad "3" smd rect
 			(at 10 -41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
-				(offset -4.165001 0)
+			(drill oval
+				(offset -3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "Vcell_4.2V")
 			(pinfunction "P3")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "6221630a-eca7-483d-9c65-148ff64aceca")
 		)
-		(pad "4" thru_hole rect
+		(pad "4" smd rect
 			(at 30 -41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset -4.165001 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "Vcell_4.2V")
 			(pinfunction "P4")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "509d2bc8-51b6-4c9e-a335-30307bb69b5a")
 		)
-		(pad "5" thru_hole rect
+		(pad "5" smd rect
 			(at -30 41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset 3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "GND")
 			(pinfunction "P5")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "2185684f-a429-40f4-b606-851df1a5bfb0")
 		)
-		(pad "6" thru_hole rect
+		(pad "6" smd rect
 			(at -10 41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset 3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "GND")
 			(pinfunction "P6")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "abc83506-8a93-4e64-840f-c697e3d07432")
 		)
-		(pad "7" thru_hole rect
+		(pad "7" smd rect
 			(at 10 41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset 3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "Vbat_8.4V")
 			(pinfunction "P7")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "bc0513ce-30d7-42db-bda5-13f6c6ea7f5e")
 		)
-		(pad "8" thru_hole rect
+		(pad "8" smd rect
 			(at 30 41.5 90)
 			(size 12 7)
-			(drill oval 1.5 1.04
+			(drill oval
 				(offset 3.905 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "Vbat_8.4V")
 			(pinfunction "P8")
 			(pintype "power_in")
@@ -1489,7 +1481,7 @@
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
-			(size 2.6 2.6)
+			(size 2.6 4)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1499,9 +1491,9 @@
 			(pintype "passive")
 			(uuid "948a3a2a-c0d5-4a66-9f60-cd6b367ca8f1")
 		)
-		(pad "2" thru_hole circle
+		(pad "2" thru_hole oval
 			(at 5 0 180)
-			(size 2.6 2.6)
+			(size 2.6 4)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1542,7 +1534,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at -5.05 42.34 270)
+			(at -5.05 42.34 90)
 			(layer "B.Fab")
 			(uuid "b3414c83-ba18-4df9-8158-22aeea987e26")
 			(effects
@@ -1554,7 +1546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b79b81e3-8d53-419c-9668-a730f3e29233")
@@ -1567,7 +1559,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2a183fda-3826-4f5c-ad67-c5701ec30e40")
@@ -1835,7 +1827,7 @@
 			(uuid "a4f66191-7bf9-43e7-9950-3615b75f6e81")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 -1.5 270)
+			(at 1.25 -1.5 90)
 			(layer "B.Fab")
 			(uuid "197c6974-1b16-49a5-b4ab-fce0bbea27dd")
 			(effects
@@ -1848,7 +1840,7 @@
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
-			(size 1.8 1.8)
+			(size 1.8 3)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1860,7 +1852,7 @@
 		)
 		(pad "2" thru_hole oval
 			(at 2.54 0 90)
-			(size 2 2)
+			(size 1.8 3)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1868,6 +1860,17 @@
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "bb070fac-dfcc-486d-a6fa-a528f780f346")
+		)
+		(pad "2" thru_hole oval
+			(at 5.08 0 90)
+			(size 1.8 3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Vbat_8.4V")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "8d6e028b-c665-4731-96e3-568f585bece0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
@@ -2139,7 +2142,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f8d380df-dda8-4522-9bff-871631c77136")
 	)
-	(gr_text "-"
+	(gr_text "+"
 		(at 73.7 -21.11 0)
 		(layer "F.SilkS")
 		(uuid "0b78f12c-2875-42de-a005-61a36dc05640")
@@ -2165,7 +2168,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "-"
+	(gr_text "+"
 		(at 54.1 -21.11 0)
 		(layer "F.SilkS")
 		(uuid "3f91c5a5-a867-4775-a5c9-2389ec82a77d")
@@ -2295,7 +2298,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
+	(gr_text "-"
 		(at 34.5 -21.11 0)
 		(layer "F.SilkS")
 		(uuid "db560722-7eaf-436f-ac1c-012df8b7ecbd")
@@ -2321,7 +2324,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
+	(gr_text "-"
 		(at 14.9 -21.11 0)
 		(layer "F.SilkS")
 		(uuid "e9d82859-5c0c-456e-b247-eb40f8b17098")
@@ -2409,6 +2412,14 @@
 		(uuid "b94052f2-78a5-4d0b-ada9-f407e6ee09d1")
 	)
 	(segment
+		(start 3.3 -77.51)
+		(end 3.3 -80.05)
+		(width 2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "cb6a9c69-ca40-41b5-a151-1d72652bb69f")
+	)
+	(segment
 		(start 3.33 -77.5)
 		(end 5.88 -77.5)
 		(width 2)
@@ -2425,28 +2436,12 @@
 		(uuid "3f530fc9-07b0-414d-b649-0f153fcd0a1c")
 	)
 	(segment
-		(start 3.3 -74.59)
-		(end 7.92 -69.97)
-		(width 2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "4220084b-fdd1-4eaf-8e0f-c632df778420")
-	)
-	(segment
-		(start 7.92 -69.97)
-		(end 7.92 -18.61)
-		(width 2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "6269bb55-17af-41ce-82ac-d1f67843b445")
-	)
-	(segment
 		(start 3.3 -74.97)
-		(end 3.3 -74.59)
+		(end 3.3 -74.2)
 		(width 2)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "a44c0012-b046-4f45-b493-f5657ff6a90b")
+		(uuid "7e551588-c650-4e72-8352-4290f19aa81a")
 	)
 	(segment
 		(start 7.92 -18.61)
@@ -2454,7 +2449,15 @@
 		(width 2)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "abe257b9-e275-4064-a508-45187a46e4e0")
+		(uuid "94ed970d-13a9-4717-8a42-b60b53f34522")
+	)
+	(segment
+		(start 7.92 -69.58)
+		(end 7.92 -18.61)
+		(width 2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "96c5b406-ee82-4178-a087-39d56c8a595c")
 	)
 	(segment
 		(start 16 -10.53)
@@ -2462,7 +2465,15 @@
 		(width 2)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "bdfd065a-d73a-44dc-bc40-66e11b865668")
+		(uuid "c598ff13-0197-4e69-8402-dcf028a5ed1e")
+	)
+	(segment
+		(start 3.3 -74.2)
+		(end 7.92 -69.58)
+		(width 2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "fd38173d-ed10-4988-9369-0eecf13a30fb")
 	)
 	(embedded_fonts no)
 )
