@@ -1863,7 +1863,7 @@
 		)
 		(pad "2" thru_hole rect
 			(at 5.08 0 90)
-			(size 4 4)
+			(size 2 4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1908,6 +1908,18 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "132ce755-3eaf-4a4e-ae66-d2ef171d5407")
+	)
+	(gr_rect
+		(start 1.095 -81.76)
+		(end 5.405 -76.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "1c734964-6574-44da-8545-c84537209f66")
 	)
 	(gr_rect
 		(start 51.19 -12.4725)
@@ -1980,6 +1992,18 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "c2ac6e45-fbfa-4ce3-ae91-d785f4335c8e")
+	)
+	(gr_rect
+		(start 1.5 -75.75)
+		(end 5 -71.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "d25a3815-c0af-4e85-9bbe-c669008a86ae")
 	)
 	(gr_rect
 		(start 31.0175 -90.62)
