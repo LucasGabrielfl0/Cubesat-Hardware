@@ -1,0 +1,153 @@
+(footprint "Sliding_Switch1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.96 -4.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b5c3b00a-bfb9-4a4f-816e-664a29149599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sliding_Switch1"
+		(at 4.99 -11.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aa650946-87b0-4ae5-992a-e8b09b57e082")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abf34427-31d3-450a-b5f5-f00f1a2d0186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3861b524-3ab9-41b4-b136-2dae0637ffa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.89 -3.36)
+		(end 7.83 3.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37ae672e-f2ee-4d21-831e-b29640131e9d")
+	)
+	(fp_rect
+		(start -6.87 -2.33)
+		(end 6.98 2.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "557e6507-8103-4f53-b92b-5a7745ca25d7")
+	)
+	(fp_rect
+		(start -6.56 -2.01)
+		(end 6.52 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74e34bce-364d-445b-9085-66ed326d175d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -9.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89f412f1-e1d9-4478-b951-1f57eb3ef6b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.8 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5a344495-434e-4144-a2b7-ec00db567223")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e20e1bec-91fc-4be1-b705-439db0d8ccf8")
+	)
+	(pad "3" thru_hole circle
+		(at 4.8 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fb687506-faca-4f5b-95d1-b12cb351d8ef")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Others/SS12D10_90_Degree.STEP"
+		(hide yes)
+		(offset
+			(xyz -0.05 -6.5 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 -0)
+		)
+	)
+	(model "C:/Users/lucas/OneDrive/Desktop/Cubesat/A0-GITHUB/Cubesat-Hardware/Kicad_Libraries/Models_3D/Switch/ss12d06.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

@@ -1181,7 +1181,7 @@
 			(pin power_in line
 				(at 13.97 3.81 180)
 				(length 5.08)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1199,7 +1199,7 @@
 			(pin power_in line
 				(at 13.97 1.27 180)
 				(length 5.08)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1297,16 +1297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
+		(property "Description" "Slide Switch SPDT Through Hole"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1316,7 +1307,7 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+		(property "MF" "E-Switch"
 			(at 0 0 0)
 			(effects
 				(font

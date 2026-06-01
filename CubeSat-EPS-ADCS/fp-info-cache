@@ -1,4 +1,4 @@
-26766922878381792
+26777606051038398
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59444,7 +59444,14 @@ Sem título
 0
 0
 Cubesat_Modules
-Sliding_Switch
+Sliding_Switch1
+
+
+0
+3
+3
+Cubesat_Modules
+Sliding_Switch_Bent
 
 
 0
@@ -70693,6 +70700,20 @@ Axys
 0
 0
 Logos
+Battery_Symbol
+
+
+0
+0
+0
+Logos
+Battery_Symbol2
+
+
+0
+0
+0
+Logos
 Cube_01
 
 
@@ -70715,6 +70736,27 @@ Cube_55
 0
 Logos
 DangerSign
+
+
+0
+0
+0
+Logos
+DangerSign_Small
+
+
+0
+0
+0
+Logos
+EPS_Symbol
+
+
+0
+0
+0
+Logos
+EPS_Symbol2
 
 
 0

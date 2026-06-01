@@ -98,6 +98,32 @@
 		(layer "F.Fab")
 		(uuid "a4cf504c-eb9d-47db-9263-998d18c4279f")
 	)
+	(fp_text user "VCC"
+		(at 3.02 1.9 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "1fba7e52-06a3-4308-a72c-9d1742a781fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.88 -0.71 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "2e0f5960-959a-461b-aded-c902bab506c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -6.31 0)
 		(unlocked yes)
