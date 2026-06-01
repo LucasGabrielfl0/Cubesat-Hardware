@@ -3531,10 +3531,6 @@
 		(uuid "925caf4a-efc6-498f-8561-8f8db54935c3")
 	)
 	(no_connect
-		(at 114.3 118.11)
-		(uuid "ae7ca6df-9216-4616-8784-2798e49ebf61")
-	)
-	(no_connect
 		(at 114.3 140.97)
 		(uuid "b3deaf15-0c0d-4f60-9157-bcc5d7860424")
 	)
@@ -4005,6 +4001,16 @@
 			(type default)
 		)
 		(uuid "68336928-459f-40d0-9eee-319f94281a1e")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cf28f8-08ec-4ed4-bcb1-693164ff52df")
 	)
 	(wire
 		(pts
@@ -5222,6 +5228,30 @@
 			)
 		)
 	)
+	(global_label "E220_RX"
+		(shape input)
+		(at 123.19 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8487e4d7-6434-4ebc-a58b-8fa1989490ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.8758 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vbat_8.4V"
 		(shape input)
 		(at 196.85 29.21 180)
@@ -5855,7 +5885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "008838ef-d400-4a46-903c-eedc4e46c9c2")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 237.744 45.974 90)
 			(effects
 				(font
@@ -5913,7 +5943,7 @@
 		(instances
 			(project ""
 				(path "/efe2bccd-e118-4ad0-853a-c0e965c7d995"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7283,7 +7313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77ac90ba-106b-4de7-9e13-0b6c6ec205e3")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 151.384 85.09 0)
 			(effects
 				(font
@@ -7341,7 +7371,7 @@
 		(instances
 			(project ""
 				(path "/efe2bccd-e118-4ad0-853a-c0e965c7d995"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
