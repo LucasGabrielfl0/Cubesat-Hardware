@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*
-G04 #@! TF.CreationDate,2026-06-02T01:46:03-03:00*
+G04 #@! TF.CreationDate,2026-06-02T12:35:42-03:00*
 G04 #@! TF.ProjectId,CubeSat_Main,43756265-5361-4745-9f4d-61696e2e6b69,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.5) date 2026-06-02 01:46:03*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2026-06-02 12:35:42*
 %MOMM*%
 %LPD*%
 G01*
@@ -51,7 +51,7 @@ G04 #@! TA.AperFunction,ComponentPad*
 %ADD16O,3.200000X1.800000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD17O,2.000000X1.800000*%
+%ADD17O,1.800000X1.800000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
 %ADD18O,2.000000X3.000000*%
@@ -94,9 +94,6 @@ G04 #@! TA.AperFunction,ComponentPad*
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
 %ADD31RoundRect,0.264706X1.485294X-0.635294X1.485294X0.635294X-1.485294X0.635294X-1.485294X-0.635294X0*%
-G04 #@! TD*
-G04 #@! TA.AperFunction,ComponentPad*
-%ADD32O,2.000000X1.700000*%
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
@@ -199,20 +196,20 @@ G04 #@! TO.N,unconnected-(U1-PB12-Pad25)*
 X71640000Y58010000D03*
 D14*
 G04 #@! TO.P,U1,26,PB13*
-G04 #@! TO.N,unconnected-(U1-PB13-Pad26)*
+G04 #@! TO.N,M1_PWM1*
 X71640000Y55470000D03*
 G04 #@! TO.P,U1,27,PB14*
-G04 #@! TO.N,unconnected-(U1-PB14-Pad27)*
+G04 #@! TO.N,M1_PWM2*
 X71640000Y52930000D03*
 G04 #@! TO.P,U1,28,PB15*
 G04 #@! TO.N,unconnected-(U1-PB15-Pad28)*
 X71640000Y50390000D03*
 D16*
 G04 #@! TO.P,U1,29,PA8*
-G04 #@! TO.N,M1_PWM1*
+G04 #@! TO.N,unconnected-(U1-PA8-Pad29)*
 X71640000Y47850000D03*
 G04 #@! TO.P,U1,30,PA9*
-G04 #@! TO.N,M1_PWM2*
+G04 #@! TO.N,unconnected-(U1-PA9-Pad30)*
 X71640000Y45310000D03*
 D14*
 G04 #@! TO.P,U1,31,PA10*
@@ -395,8 +392,8 @@ G04 #@! TD*
 D28*
 G04 #@! TO.P,U3,*
 G04 #@! TO.N,*
-X78486250Y12290000D03*
 X78486250Y28290000D03*
+X78486250Y12290000D03*
 D29*
 G04 #@! TO.P,U3,1,VIN*
 G04 #@! TO.N,VIN_5V*
@@ -457,11 +454,9 @@ X77790000Y43560000D03*
 G04 #@! TO.P,J2,5,Pin_5*
 G04 #@! TO.N,M2_PWM1*
 X77790000Y46060000D03*
-D32*
 G04 #@! TO.P,J2,6,Pin_6*
 G04 #@! TO.N,unconnected-(J2-Pin_6-Pad6)*
 X77790000Y48560000D03*
-D14*
 G04 #@! TO.P,J2,7,Pin_7*
 G04 #@! TO.N,M1_PWM2*
 X77790000Y51060000D03*
