@@ -20,6 +20,10 @@ FIGURE: 3D MODEL OF THE CUBESAT / REAL CUBESAT
 ## EPS
 
 
+## FRAME
+
+PIC of the empty frame / frame + RW setup
+
 
 
 
