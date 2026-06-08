@@ -4,19 +4,21 @@
   Repository for all the structural and electronic hardware for the ODYSSEY 2U CubeSat Prototype
 </p>
 
-FIGURE: 3D MODEL OF THE CUBESAT / REAL CUBESAT
-
-
-
+<p align="center">
+<img width="485" height="722" alt="Image" src="https://github.com/user-attachments/assets/ea675eb0-671b-47e3-b68b-050ca03bad26" />
+<img width="485" height="722" alt="Image" src="https://github.com/user-attachments/assets/9ece11f4-3415-4f99-b2ae-9ca21730231f" />
+</p>
 
 ## Main
-
-
+<p align="center">
+<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/d10bb34d-6c29-40a4-8fca-c374506bddea" />
+<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/4cfcaae2-66a3-4a87-916a-0e68b83c60ba" />
+</p>
 
 ## Battery
 <p align="center">
-<img width="434" height="434" alt="Image" src="https://github.com/user-attachments/assets/10c039e9-eb99-471e-b0da-73462d829908" />
-<img width="434" height="434" alt="Image" src="https://github.com/user-attachments/assets/d0e51be4-ae51-4725-ae59-eac9c249dd5c" />
+<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/10c039e9-eb99-471e-b0da-73462d829908" />
+<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/d0e51be4-ae51-4725-ae59-eac9c249dd5c" />
 </p>
 
 ## EPS
@@ -24,14 +26,6 @@ FIGURE: 3D MODEL OF THE CUBESAT / REAL CUBESAT
 <img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/af3be711-52df-4c27-a4c6-7497ec90dd6b" />
 
 ## FRAME
-
-PIC of the empty frame / frame + RW setup
-
-
-
-
-
-
 
 ## 🔗 Other Repositories in this Project
 Here are the links for all the other repositores within this project
