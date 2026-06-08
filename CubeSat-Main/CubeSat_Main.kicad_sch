@@ -3276,7 +3276,7 @@
 		)
 		(uuid "78bded22-f491-472c-bc8e-c7f2726d0dda")
 	)
-	(text "OTHER STATUS"
+	(text "FAULT LED"
 		(exclude_from_sim no)
 		(at 197.612 128.778 0)
 		(effects
@@ -3372,9 +3372,9 @@
 		)
 		(uuid "b72d62b1-1167-45e4-a646-22518b632f9e")
 	)
-	(text "ERROR STATUS"
+	(text "STATUS LED"
 		(exclude_from_sim no)
-		(at 170.18 128.778 0)
+		(at 171.704 129.032 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4796,7 +4796,7 @@
 			)
 		)
 	)
-	(global_label "LED_RED"
+	(global_label "LED_BLUE"
 		(shape input)
 		(at 123.19 133.35 0)
 		(fields_autoplaced yes)
@@ -4810,7 +4810,7 @@
 		)
 		(uuid "561abafb-aefd-4d50-9d54-336bef756d36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7549 133.35 0)
+			(at 135.8435 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4988,7 @@
 			)
 		)
 	)
-	(global_label "LED_BLUE"
+	(global_label "LED_RED"
 		(shape input)
 		(at 121.92 135.89 0)
 		(fields_autoplaced yes)
@@ -5002,7 +5002,7 @@
 		)
 		(uuid "7619c70c-c2ff-47f3-af4d-d022b3e66745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5735 135.89 0)
+			(at 133.4849 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5348,7 @@
 			)
 		)
 	)
-	(global_label "LED_BLUE"
+	(global_label "LED_RED"
 		(shape input)
 		(at 196.85 134.62 0)
 		(fields_autoplaced yes)
@@ -5362,7 +5362,7 @@
 		)
 		(uuid "9ce8ab52-0c3c-4576-917f-a1076e0ffbe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5035 134.62 0)
+			(at 208.4149 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5372,7 @@
 			)
 		)
 	)
-	(global_label "LED_RED"
+	(global_label "LED_BLUE"
 		(shape input)
 		(at 170.18 134.62 0)
 		(fields_autoplaced yes)
@@ -5386,7 +5386,7 @@
 		)
 		(uuid "9dcf0601-5793-46e2-bfc4-ab4a9043b941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7449 134.62 0)
+			(at 182.8335 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0096294f-d962-4106-b444-c86af48c193e")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 196.85 150.1774 90)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 		(instances
 			(project "CubesatMain"
 				(path "/efe2bccd-e118-4ad0-853a-c0e965c7d995"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7817,7 +7817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b6e4f3-6ad5-4b37-9206-e94724e7f12d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 171.45 150.1774 90)
 			(effects
 				(font
@@ -7880,7 +7880,7 @@
 		(instances
 			(project ""
 				(path "/efe2bccd-e118-4ad0-853a-c0e965c7d995"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8098,7 +8098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c1b297-5237-4b2f-a33a-492a70f54604")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 270.51 106.9974 90)
 			(effects
 				(font
@@ -8161,7 +8161,7 @@
 		(instances
 			(project "CubesatMain"
 				(path "/efe2bccd-e118-4ad0-853a-c0e965c7d995"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
