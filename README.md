@@ -1,3 +1,5 @@
+<img width="508" height="728" alt="Frame_and_Tree" src="https://github.com/user-attachments/assets/ea9aa51f-b22e-4c96-b9d4-7dc3fe09cd4c" />
+<img width="489" height="716" alt="Frame_noFront" src="https://github.com/user-attachments/assets/21fa31a1-245e-4419-92bf-2126a7eaf04e" />
 <h1 align="center"> ODYSSEY-HARDWARE</h1>
 
 <p align="center">
@@ -27,7 +29,11 @@
 <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/af3be711-52df-4c27-a4c6-7497ec90dd6b" />
 </p>
 
-## FRAME
+## Frame and Structure for Reaction Wheels
+<p align="center">
+<img width="400" height="622" alt="Frame_noFront" src="https://github.com/user-attachments/assets/51618000-f781-4a7a-b8d7-db0c07bf41bd" />
+<img width="400" height="622" alt="Frame_and_Tree" src="https://github.com/user-attachments/assets/6e92942b-9063-4cf4-bd02-602f18865445" />
+</p>
 
 ## 🔗 Other Repositories in this Project
 Here are the links for all the other repositores within this project
