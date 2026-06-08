@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-<img width="485" height="722" alt="Image" src="https://github.com/user-attachments/assets/ea675eb0-671b-47e3-b68b-050ca03bad26" />
-<img width="485" height="722" alt="Image" src="https://github.com/user-attachments/assets/9ece11f4-3415-4f99-b2ae-9ca21730231f" />
+<img width="400" height="622" alt="Image" src="https://github.com/user-attachments/assets/ea675eb0-671b-47e3-b68b-050ca03bad26" />
+<img width="400" height="622" alt="Image" src="https://github.com/user-attachments/assets/9ece11f4-3415-4f99-b2ae-9ca21730231f" />
 </p>
 
 ## Main
@@ -17,13 +17,13 @@
 
 ## Battery
 <p align="center">
-<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/10c039e9-eb99-471e-b0da-73462d829908" />
-<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/d0e51be4-ae51-4725-ae59-eac9c249dd5c" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/10c039e9-eb99-471e-b0da-73462d829908" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/d0e51be4-ae51-4725-ae59-eac9c249dd5c" />
 </p>
 
 ## EPS
-<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/9a840900-2bb1-4a9b-9088-fca1955e154a" />
-<img width="497" height="497" alt="Image" src="https://github.com/user-attachments/assets/af3be711-52df-4c27-a4c6-7497ec90dd6b" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/9a840900-2bb1-4a9b-9088-fca1955e154a" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/af3be711-52df-4c27-a4c6-7497ec90dd6b" />
 
 ## FRAME
 
