@@ -22,8 +22,10 @@
 </p>
 
 ## EPS
+<p align="center">
 <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/9a840900-2bb1-4a9b-9088-fca1955e154a" />
 <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/af3be711-52df-4c27-a4c6-7497ec90dd6b" />
+</p>
 
 ## FRAME
 
