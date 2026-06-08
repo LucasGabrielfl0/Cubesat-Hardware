@@ -11,8 +11,8 @@
 
 ## Main
 <p align="center">
-<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/d10bb34d-6c29-40a4-8fca-c374506bddea" />
-<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/4cfcaae2-66a3-4a87-916a-0e68b83c60ba" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/d10bb34d-6c29-40a4-8fca-c374506bddea" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/4cfcaae2-66a3-4a87-916a-0e68b83c60ba" />
 </p>
 
 ## Battery
