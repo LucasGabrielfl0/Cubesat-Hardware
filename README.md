@@ -1,5 +1,3 @@
-<img width="508" height="728" alt="Frame_and_Tree" src="https://github.com/user-attachments/assets/ea9aa51f-b22e-4c96-b9d4-7dc3fe09cd4c" />
-<img width="489" height="716" alt="Frame_noFront" src="https://github.com/user-attachments/assets/21fa31a1-245e-4419-92bf-2126a7eaf04e" />
 <h1 align="center"> ODYSSEY-HARDWARE</h1>
 
 <p align="center">
